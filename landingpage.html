@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your site description">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jeans</title>
+</head>
+
+<body>
+    <header>
+        <div class="site-heading">Jeans</div>
+        <span class="menu-icon" onclick="toggleNavbar()"></span>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Styles">Styles</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="sidenav" id="sidenav">
+        <a href="#" class="close-icon" onclick="toggleNavbar()"></a>
+        <a href="#Home">Home</a>
+        <a href="#Styles">Styles</a>
+        <a href="#signup">Sign Up</a>
+    </div>
+
+    
+    <div class="content-section" id="Home">
+        <div class="left-content">
+            <h1> JEANS</h1>
+            <button>
+                <a href="https://www.example.com/" target="_blank">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="right-content">
+            <img src="home.png" width="500" alt="Website Screenshot">
+        </div>
+    </div>
+
+    <section class="Styles" id="Styles">
+        <div class="container">
+            <div class="section-title">
+                <span>Available Jeans</span>
+            </div>
+            <div class="style-boxes">
+                
+                <div class="style-box">
+                    <div class="style-title">
+                        <a href="https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/OD-DN-WL-1228-1-24/i75MnVBjD-1.jpg" target="_blank">
+                            CARGO 
+                        </a>
+                    </div>
+                    <p>
+                        Loose-fitting casual cotton trousers with large patch pockets halfway down each leg.
+                    </p>
+                </div>
+
+                
+                <div class="style-box">
+                    <div class="style-title">
+                        <a href="https://5.imimg.com/data5/CJ/UN/MY-40139771/bootcut-jeans.jpg" target="_blank">
+                            BOOTCUT
+                        </a>
+                    </div>
+                    <p>
+                        Bootcut jeans are denim pants that flare out slightly at the ankle.
+                    </p>
+                </div>
+
+               
+                <div class="style-box">
+                    <div class="style-title">
+                        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQvLgfyin-bC5Y2oph7ZMgs1qWtkidvBDDYwElAXFl-lVdnJHK0Siz5UcAWLVRjQlcnYg&usqp=CAU" target="_blank">
+                            SLIM-FIT
+                        </a>
+                    </div>
+                    <p>
+                        Slim-fit pants or skinny jeans (when made of denim) are tight trousers that have a snug fit through the legs and end in a small leg opening.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="signup" id="signup">
+        <div class="container">
+            <div class="section-title">
+                <span>Sign Up Now</span>
+            </div>
+            <div class="signup-form">
+                <div class="input-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your Name here">
+                </div>
+                <div class="input-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your Email here">
+                </div>
+                <div class="input-group">
+                    <label for="password">Your Password</label>
+                    <input type="password" id="password" placeholder="Enter your Password here">
+                </div>
+                <div class="button">
+                    <button onclick="submitForm()">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.linkedin.com/in/naazirashareefa/" target="_blank">
+                    Naazira Shareefa
+                </a>
+            </span>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
